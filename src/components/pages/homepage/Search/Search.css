@@ -20,3 +20,22 @@
     border: none;
     cursor: pointer;
 }
+
+._front-card {
+    width: 80vw;
+    box-shadow: 0 3px 16px #0000001F;
+    height: 480px;
+    margin: -260px auto 0;
+    border-radius: 8px;
+}
+
+._front-card ._cumulative {
+    background-color: #1E776E;
+    height: 260px;
+    border-radius: 8px 8px 0 0;
+}
+
+._details {
+    height: calc(480px - 260px);
+    background-color: red;
+}

@@ -10,3 +10,11 @@
 .title {
     font-family: 'Bebas Neue', cursive;
 }
+
+.space-horizontal {
+    padding: 0 150px;
+}
+
+.bold-text {
+    font-weight: bold;
+}

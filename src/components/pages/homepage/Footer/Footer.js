@@ -7,8 +7,11 @@ export default function Footer(){
             <div>
                 I am the Footer
             </div>
-            <div className="_copyright">
-                ddd
+            <div className="_copyright space-horizontal">
+                <div className="_copyright-text">
+                    <div>Developed by <span className="bold-text">irumva anselme</span></div>
+                    <div>Designed by <span className="bold-text">Awesomity Lab</span></div>
+                </div>
             </div>
         </div>
     )

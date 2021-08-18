@@ -3,16 +3,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import "./PerContinent.css"
 import 'swiper/swiper.min.css';
+import Components from "./Components/Components";
 
-export default function Component(){
+export default function PerContinent() {
     return (
-        <Swiper
-            spaceBetween={50}
-            slidesPerView={3}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-        >
-            <SwiperSlide>Slide 1</SwiperSlide>
-        </Swiper>
+        <div className="text-center">
+            <h1 className="title _title-per-continents">PER CONTINENTS</h1>
+            <Components/>
+        </div>
     )
 }

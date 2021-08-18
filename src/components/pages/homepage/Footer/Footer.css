@@ -1,4 +1,13 @@
 ._container {
     background-color: #1E776E;
     height: 791px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+._copyright {
+    background-color: #000000;
+    opacity: 0.23;
+    height: 119px;
 }

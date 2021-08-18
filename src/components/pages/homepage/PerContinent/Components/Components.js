@@ -11,7 +11,7 @@ SwiperCore.use([ Navigation ]);
 export default function Components() {
     return (
         <div>
-            <Swiper spaceBetween={50} slidesPerView={3} navigation={{ nextEl: ".prev-btn", prevEl: ".next-btn" }}>
+            <Swiper spaceBetween={100} slidesPerView={3} navigation={{ nextEl: ".prev-btn", prevEl: ".next-btn" }}>
                 <SwiperSlide>
                     <Component/>
                 </SwiperSlide>

@@ -5,7 +5,7 @@ export default function Footer(){
     return (
         <div className="_container">
             <div className="_footer-profile">
-                I am the Footer
+                <h1 className="title">REACH ME</h1>
             </div>
             <div className="_copyright space-horizontal">
                 <div className="_copyright-text">

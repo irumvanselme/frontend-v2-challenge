@@ -22,8 +22,36 @@
 }
 
 ._footer-profile {
+    color: white;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+._copyright-text-item {
+    font-size: 18px;
+}
+
+._title {
+    font-size: 42px;
+}
+
+._profile-item {
+    text-align: center;
+    margin-top: 40px;
+}
+
+._profile-item ._variable {
+    font-weight: bold;
+}
+
+._profile-item ._value {
+    margin-top: 15px;
+    font-size: 20px;
+    opacity: .7;
+}
+
+._profile-item ._value a {
+    color: white;
 }

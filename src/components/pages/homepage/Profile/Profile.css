@@ -1,0 +1,35 @@
+._container-profle {
+    background-color: #EEF6F6;
+    height: 83vh;
+    display: flex;
+}
+
+._container-profle ._image {
+    width: 50%;
+}
+
+._container-profle ._image img{
+    height: 100%;
+}
+
+._container-profle ._name{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+._container-profle ._name .title {
+    font-size: 50px;
+}
+
+._container-profle ._name .skill {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+._container-profle ._name .date {
+    font-weight: 300;
+    color: #888888;
+    margin-top: 20px;
+}

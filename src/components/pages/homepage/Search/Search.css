@@ -1,0 +1,22 @@
+._search-container {
+    background-color: #2FC8B8;
+    height: 70vh;
+}
+
+._logo {
+    font-weight: 800;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+._button {
+    background: #1E776E no-repeat padding-box;
+    border-radius: 6px;
+    font: normal normal bold 15px/19px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -4,7 +4,7 @@ import "./Footer.css";
 export default function Footer(){
     return (
         <div className="_container">
-            <div>
+            <div className="_footer-profile">
                 I am the Footer
             </div>
             <div className="_copyright space-horizontal">

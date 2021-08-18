@@ -16,7 +16,7 @@ const RightSideBarItem = ({ name, value, total }) => {
 
 export default function Component() {
     return (
-        <div className="row row-cols-2 _card mt-5">
+        <div className="row row-cols-2 _card mt-5 mx-4">
             <div>
                 <div className="_cases">
                     <h1 className="title">AFRICA</h1>
